@@ -22,7 +22,13 @@ ul{
 	margin: 0 auto;
 	font-size: 30px;
 	border-bottom: 5px solid rgba(255,255,21,0.4);
+	margin: 0 auto;
+	text-decoration: none;
+	display: block;
 	text-align: center;
+}
+a.title:hover{
+	color: #39a1d0;
 }
 section:first-of-type{
 	 justify-content: space-around;
@@ -95,10 +101,13 @@ section {
 }
 .about-us{
 	margin-top: 40px;
+	
 }
 .t-about{
+	margin: 0 auto;
 	border-bottom: 5px solid rgba(101,120,160,0.6);
 	width: 200px;
+	
 }
 .t-time,.time{
 	width: 205px;
