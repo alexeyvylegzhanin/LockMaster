@@ -342,14 +342,19 @@ section {
 }
 
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	#wrapper{width: 1024px;}
 	.info{margin-left: 300px;}
 	.about-us{margin-left: 10px; margin-right:10px;}
 	.t-security{width: 250px;}
 }
-@media (max-width: 768px) {
+@media screen and  (max-width: 768px) {
 	#wrapper{width: 768px;}
 	.info{margin-left: 100px;}
 	.section-nav{margin-left: -15px;}
+}
+
+@media screen and  (max-width: 425px){
+	#wrapper{width: 425px;}
+	.info{margin-left: 10px;}
 }
